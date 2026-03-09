@@ -1,4 +1,4 @@
-# lectures/10/generate_dynamics_images.py
+# lectures/10/generate_images.py
 
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -7,8 +7,8 @@ import os
 from scipy.integrate import odeint
 import matplotlib.patches as mpatches
 
-# Create images directory if it doesn't exist
-output_dir = "lectures/10/images"
+# Create images directory next to this script so it works from any cwd.
+output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images")
 os.makedirs(output_dir, exist_ok=True)
 plt.style.use('seaborn-v0_8-whitegrid') # Using a seaborn style for nicer plots
 

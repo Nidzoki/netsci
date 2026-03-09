@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marp Lecture Author"
+  short_description: "Write and refine Marp lecture decks"
+  default_prompt: "Use $marp-lecture-author to draft or revise a lecture slide deck in this repository."

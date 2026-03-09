@@ -81,7 +81,7 @@ Two key mechanisms:
 
 > "The rich get richer" or "Matthew effect"
 
-![width:500px bg right:40%](images/matthew.png)
+![width:500px bg right:40%](images/network_hubs.png)
 
 ---
 

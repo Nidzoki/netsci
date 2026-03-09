@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lecture Image Generator"
+  short_description: "Build lecture image scripts and assets"
+  default_prompt: "Use $lecture-image-generator to create or update lecture visualization scripts and generated images."

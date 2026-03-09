@@ -32,7 +32,7 @@ Data Science and Engineering Master Program
 - **Goal:** Extract, analyze, and visualize character relationships
 - **Skills:** Text processing, NER, network construction, centrality analysis
 
-![width:400px bg right:35%](images/conclave_poster.png)
+![width:400px bg right:35%](images/example_character_network.png)
 
 ---
 

@@ -68,10 +68,11 @@ This structure ensures a balanced assessment of both theoretical knowledge and p
 
 ## Repository Structure
 
-- `lectures/`: MARP slide decks for 14 lectures
+- `lectures/`: Marp slide decks and supporting image-generation scripts
 - `tutorials/`: Jupyter notebooks for practical tutorials
-- `code/`: Example code and implementations
-- `data/`: Datasets used in lectures and tutorials
+- `exercises/`: Assignment and exercise prompts
+- `projects/`: Semester project guidance and grading materials
+- `sources/`: Reference notes and imported source material
 
 ## Prerequisites
 
@@ -92,7 +93,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # Clone the repository
-git clone https://github.com/nkkko/ns-2025.git
+git clone https://github.com/nibzard/netsci.git
 
 # Create and activate a virtual environment
 uv venv
@@ -106,11 +107,11 @@ uv pip install -r requirements.txt
 
 ```bash
 # Clone the repository
-git clone https://github.com/nbalic/network-analysis-2025.git
+git clone https://github.com/nibzard/netsci.git
 
 # Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -122,4 +123,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Nikola Balic - [email@university.edu]
+Nikola Balic
