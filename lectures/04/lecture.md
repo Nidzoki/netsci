@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-footer: 'Network Analysis - PMF-UNIST 2024/2025'
+footer: 'Network Analysis - PMF-UNIST 2025/2026'
 ---
 
 # Network Connectivity and Components
